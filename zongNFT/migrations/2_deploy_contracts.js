@@ -1,5 +1,5 @@
-const KryptoBird = artifacts.require("KryptoBird");
+const zongNFT = artifacts.require("zongNFT");
 
 module.exports = function(deployer) {
-    deployer.deploy(KryptoBird);
+    deployer.deploy(zongNFT);
 };

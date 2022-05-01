@@ -58,7 +58,7 @@ contract('zongNFT', (accounts) => {
             let result = []
             let zongNFT
             for(i = 1; i <= totalSupply; i++) {
-                zongNFT = await contract.zongNFT(i - 1)
+                zongNFT = await contract._zongNFTArray(i - 1)
                 result.push(zongNFT)
             }
         })
